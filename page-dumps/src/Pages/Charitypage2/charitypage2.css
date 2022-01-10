@@ -1,0 +1,141 @@
+.main-container {
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.searchbar .searchbardiv {
+  width: 100%;
+  height: 20%;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.searchbar .searchbar {
+  width: 35rem;
+  border-radius: 5px 0px 0px 5px;
+  border-width: 2px;
+  border-color: rgb(190, 189, 189);
+  border-right: none;
+  font-size: 15px;
+  padding: 5px;
+  border-style: solid;
+  border-right-width: 0px;
+}
+
+.searchbar .search-button {
+  background-color: white;
+  border-width: 2px;
+  border-color: rgb(190, 189, 189);
+  border-left: none;
+  height: 31.5px;
+  border-radius: 5px 0px 0px 5px;
+  border-style: solid;
+  border-right-width: 0px;
+  border-left-width: 2px;
+  border-left-color: rgb(190, 189, 180);
+  transform: rotateY(180deg);
+  color: rgb(128, 126, 126);
+}
+.searchbar button:hover {
+  cursor: pointer;
+}
+
+.card-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100%;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.card-container .card-1,
+.card-2,
+.card-3 {
+  background-color: white;
+  width: 425px;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 65vh;
+  max-height: auto;
+  -webkit-box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+.card-container > div {
+  flex-basis: auto;
+}
+.card-container .card-1,
+.card-3,
+.card3 {
+  margin: 35px 35px 35px 35px;
+}
+
+/*Picture Div*/
+.picture-1 {
+  display: flex;
+  justify-content: center;
+  height: 140px;
+  align-items: center;
+}
+/*Image inside Picture Div*/
+.picture-1 img {
+  margin-top: 0px;
+  height: 140px;
+  width: 425px;
+  border-radius: 5px;
+}
+/*Text over Image inside Picture Div*/
+.picture-1 text {
+  position: absolute;
+  font-size: 50px;
+  color: aliceblue;
+  display: flex;
+  margin-top: 0px;
+  font-weight: 600;
+}
+
+/*Mid - Text Div*/
+.text-1 {
+  display: flex;
+  justify-content: center;
+  height: 180px;
+  align-items: center;
+  margin: 5px 11px 5px 18px;
+}
+
+/*Button Div*/
+.last-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inside Button Div (Text)*/
+.last-1 .donate {
+  font-family: opensans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.13px;
+  line-height: 18.5714px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-spacing: 0px;
+  background-color: #24a0ed;
+  color: white;
+  padding: 10px 26px 10px 26px;
+  margin: 20px 0 0 0;
+  border: 1px solid #fff;
+  width: 142.632px;
+  height: 41.34px;
+  text-decoration: none solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
